@@ -1,4 +1,4 @@
-package simpleFactoryMethod;
+package simpleFactory;
 
 //This factory will be responsible for creating the 
 //objects of type Store

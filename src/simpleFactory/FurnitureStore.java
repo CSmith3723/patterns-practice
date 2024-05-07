@@ -1,4 +1,4 @@
-package simpleFactoryMethod;
+package simpleFactory;
 
 public class FurnitureStore implements Store {
 
