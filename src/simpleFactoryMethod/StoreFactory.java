@@ -1,4 +1,4 @@
-package factoryMethod;
+package simpleFactoryMethod;
 
 public class StoreFactory extends BaseStoreFactory {
 
@@ -29,6 +29,7 @@ public class StoreFactory extends BaseStoreFactory {
 		store.openStore();
 		store.closestore();
 		store.productType();
+		store.storeSize();
 		return store;
 
 	}

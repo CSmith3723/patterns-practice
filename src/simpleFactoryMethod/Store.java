@@ -1,4 +1,4 @@
-package factoryMethod;
+package simpleFactoryMethod;
 
 public interface Store {
 
@@ -7,5 +7,7 @@ public interface Store {
 	public void closestore();
 	
 	public void productType();
+	
+	public void storeSize();
 	
 }

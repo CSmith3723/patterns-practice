@@ -1,4 +1,4 @@
-package factoryMethod;
+package simpleFactoryMethod;
 
 public class FurnitureStore implements Store {
 
@@ -15,6 +15,12 @@ public class FurnitureStore implements Store {
 	@Override
 	public void productType() {
 		System.out.println("The furniture store sells couches, beds, chairs, tables, and other home goods.");
+	}
+	
+	@Override
+	public void storeSize() {
+		System.out.println("This is a medium-sized store.");
+		
 	}
 
 }

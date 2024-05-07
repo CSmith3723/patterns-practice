@@ -1,4 +1,4 @@
-package factoryMethod;
+package simpleFactoryMethod;
 
 public class GroceryStore implements Store {
 
@@ -17,4 +17,9 @@ public class GroceryStore implements Store {
 		System.out.println("The grocery store sells pre-packed and fresh food products.");
 	}
 
+	@Override
+	public void storeSize() {
+		System.out.println("This is a medium-sized store.");
+		
+	}
 }

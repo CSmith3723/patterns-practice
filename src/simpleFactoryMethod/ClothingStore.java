@@ -1,4 +1,4 @@
-package factoryMethod;
+package simpleFactoryMethod;
 
 public class ClothingStore implements Store {
 
@@ -16,6 +16,12 @@ public class ClothingStore implements Store {
 	@Override
 	public void productType() {
 		System.out.println("The clothing store sells clothing for all people, body types, and interest groups.");
+	}
+
+	@Override
+	public void storeSize() {
+		System.out.println("This is a large store.");
+		
 	}
 
 }
